@@ -1,0 +1,15 @@
+div#div{
+
+    margin-top: 100px;
+    text-align: center;
+}
+
+img#rockImg{
+
+    cursor: pointer;
+}
+
+body{
+    
+    text-align: center;
+}
