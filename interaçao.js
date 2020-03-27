@@ -1,19 +1,14 @@
 var userName;
 
 function carregar() {
-
-    userName = lercookie("irock_userName");
-
-    if (userName) {
-
+    
+    if(navigator.cookieEnabled)
+        userName = lercookie("irock_userName");
+    if (userName)
         alert("Ola, "+userName+", senti sua falta!");
-        
-    } else {
-
+    else
         alert("Ola, eu sou sua rocha de estimaçao!");
         
-    }
-    
 }
 
 function clique() {
@@ -28,8 +23,12 @@ function clique() {
 
         if (userName) {
 
-            alert("Przer em conhecer voce, "+userName+".");
-            escrevercookie("irock_userName", userName, 5*365);
+            alert("Prazer em conhecer voce, "+userName+".");
+
+            if(navigator.cookieEnabled)
+                escrevercookie("irock_userName", userName, 5*365);
+            else
+                alert("Os cookies nao sao suportados em seu browser. Eu me lembrarei de voce mais tarde, me desculpe!");
             
         }
 
