@@ -1,6 +1,6 @@
 div#div{
 
-    margin-top: 100px;
+    margin-top: 40px;
     text-align: center;
 }
 
@@ -12,4 +12,5 @@ img#rockImg{
 body{
     
     text-align: center;
+    background-color: lightblue;
 }

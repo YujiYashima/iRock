@@ -34,13 +34,13 @@ function clique() {
 
     }
 
-    document.getElementById("rockImg").src = "irock smile.png";
-    setTimeout("document.getElementbyId('rockImg').src = 'irock.png';", 1*60*1000);
+    document.getElementById("rock").src = "irock smile.png";
+    setTimeout("document.getElementbyId('rock').src = 'irock.png';", 1*60*1000);
     
 }
 
 function redimensao() {
 
-    document.getElementById("rockImg").style.height = (document.body.clientHeight - 100)*0.9;
+    document.getElementById("rock").style.height = (document.body.clientHeight - 100)*0.9;
     
 }
