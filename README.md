@@ -6,6 +6,7 @@
 
 <p align="center">
   <a href="#Built with">Built with</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#objective">Objective</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#how-to-run">How to run</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#Screen">ScreenShots</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#book">Reading</a>&nbsp;&nbsp;&nbsp;
@@ -20,6 +21,10 @@ This project was built with pure technologies:
 - JavaScript
 
 And there are still cookie concepts in the project with Javacritp
+
+<h2 id="objective">:page_facing_up: Objective</h2>
+
+Study JavaScript concepts better together with the Book. In addition, working with new concepts like Cookies.
 
 <h2 id="how-to-run">:arrows_counterclockwise: How to run</h2>
 
